@@ -9,3 +9,6 @@ post_build:
 artifacts:
   files:
     - index.html
+    - appspec.yml
+    - scripts/**/*
+  discard-paths: no
